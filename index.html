@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To do app</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap&subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="app">
+        <form class="app-form" id="app-form">
+            <div class="app-form-div">
+                <label class="app-form-label" for="textArea">Wpisz treść notatki</label>
+                <textarea class="app-form-message" name="textArea" id="textArea"></textarea>
+            </div>
+            <div class="app-form-div">
+                <button type="submit" class="button app-form-button">Dodaj</button>
+            </div>
+        </form>
+    </div>
+    <section class="app-list-section">
+        <header class="app-list-header">
+            <h2 class="app-list-title">
+                Wyszukaj notatkę
+            </h2>
+            <form class="app-list-search-form">
+                <input type="search" id="appSearch" class="app-list-search">
+            </form>
+        </header>
+        <h1 class="app-list-counter">Liczba notatek: <span>0</span></h1>
+
+        <div class="app-list" id="appList">
+            <!-- tutaj będzie lista notatek div.app-element -->
+        </div>
+    </section>
+
+    <script src="code.js"></script>
+</body>
+
+</html>
