@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
     inputSearch.addEventListener('input', search);
 })
 
-// search //
+// wyszukiwanie //
 const search = (e) => {
     e.preventDefault();
     const val = e.target.value.toLowerCase();
