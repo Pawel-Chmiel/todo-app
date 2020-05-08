@@ -1,6 +1,6 @@
 # Simple Todo App exercise
 
-### demo [here](https://raaul007.github.io/todo-app/)
+### demo [here](https://pawel-chmiel.github.io/todo-app/)
 
 ## Tech stack:
 
